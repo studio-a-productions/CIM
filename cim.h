@@ -6,6 +6,11 @@
 #define CIMEXTR extern "C"
 #endif
 
+#define CIM_VERSION_MAJ 1U
+#define CIM_VERSION_MIN 0U
+#define CIM_VERSION_PATCH 0U
+
+
 #ifndef CCONSTEXPR
 #define CCONSTEXPR constexpr
 #endif
